@@ -16,13 +16,3 @@ if __name__=="__main__":
                         c.close()
         except btcommon.BluetoothError:
             continue
-"""
-import nmap
-l=nmap.PortScanner()
-l.scan('192.168.0.1/24','445')
-d=[]
-for y in l.all_hosts():
-    if l[y]['tcp'][445]['state']!='closed':
-        d.append(y)
-print(d)
-"""
