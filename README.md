@@ -16,7 +16,7 @@
 步骤
 <code>start ms-settings:privacy-location</code><br>
 turn on location services let app camera access your location<br>
-then <code>start microsoft.windows.camera</code><br>
+then <code>start microsoft.windows.camera:</code><br>
 ## gateway mac address
 用法<br>
 <code>pwsh</code><br>
