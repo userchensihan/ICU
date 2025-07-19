@@ -13,7 +13,10 @@
 请到<code>maxmind</code>下载<code>GeoLite2-City.mmdb</code>后运行
 ## metadata of movie or picture
 用法 <code>python3 1.py</code><br>
-Please Allow Camera To Access your location
+步骤
+</code>start ms-settings:privacy-location<code><br>
+location services on-let app camera access your location <code>
+然后<code>start microsoft.windows.camera</code><br>
 ## gateway mac address
 用法<br>
 <code>pwsh</code><br>
