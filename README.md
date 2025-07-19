@@ -32,4 +32,8 @@ then <code>start microsoft.windows.camera:</code><br>
 <code>python3 10.py</code><br>
 修改10.py中的wlp3s0(网卡)<br>
 local ethernet address && gateway ipv4 address<br>
+## login optical modem
+用法<br>
+<code>gcc ./2.c -o 2</code><br>
+<code>./2</code><br>
 ##### 2024年12月原创于中华人民共和国浙江省宁波市
