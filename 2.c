@@ -17,7 +17,7 @@ int main() {
     e.sin_port = htons(80);
     inet_pton(AF_INET,"192.168.1.1",&e.sin_addr);
     if (connect(s,(struct sockaddr *)&e, sizeof(e)) < 0) {
-        perror("Connection failed");
+        perror("fuck!");
         close(s);
         exit(EXIT_FAILURE);
     }
