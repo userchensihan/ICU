@@ -1,0 +1,41 @@
+a=RadioTap()
+b=raw(a)
+返回b'\x00\x00\x08\x00\x00\x00\x00\x00'
+struct.unpack("<BBHI",b)
+< 小端序
+B unsigned char 整数 0-255 int8 版本
+B unsigned char 整数 0-255 int8 填充
+H unsigned short 整数 0-65535 int16 长度
+I unsigned int 整数  0-4294967295 int32 位掩码
+返回(0, 0, 8, 0)
+struct.pack("<BBHI",0,0,8,0)
+返回b'\x00\x00\x08\x00\x00\x00\x00\x00'
+Type:00
+Type description:Management
+Subtype value:12或0b1100
+Subtype description Deauthentication
+759页 Table9-1
+Frame Control Field的SubField取决于Type和Subtype SubField的设置
+822页
+Protocol Version在2020年的标准中值为0(PV0为0,PV1为1)(758页 9.2.4.12)
+reason code字段用于指示类型Deauthentication
+reason code 7 Name INVALID_CLASS3_FRAME来自非关联STA的Class 3帧已接收(870页 Table9-49)
+十六进制:0x0007
+Duration 属性ID等于0毫秒(microseconds)
+十六进制:b'\x00\x00'
+213页 RA:接受地址或接受站地址
+216页 TA:发射地址或发射站地址
+207页 DS:配电系统
+770页 Sequence Control field不存在于Control帧中
+758页 Figure9-5 S1G PPDU中的帧控制字段格式
+协议版本 2比特
+类型 2比特
+子类型 4比特
+在控制帧中,To DS和From DS,如果存在,都为0(761页)
+在所有非QMF的管理帧中
+Retry子字段设置为0 因为它非重新传输的管理帧(762页)
+Power Management(PWR MGT)子字段设置为0 因为STA处于非PS(节电模式)中
+More Fragments子字段设置为0,因为它非MSDU(MAC服务数据单元)或MMPDU(MAC管理协议数据单元)后续分片的管理帧(762页)
+More Data子字段设置为0,因为AP无BU(缓冲单元)(762页)
+Protected Frame子字段设置为0,因为它的Frame Body('\x07\x00')(855页)未使用加密封装算法进行保护(764页)
+
