@@ -1,6 +1,7 @@
-# ICU
+# ICU(hacker group)
 ## Deauth Attack
-用法bash 0.sh<br>
+用法
+<code>bash 0.sh</code><br>
 请在0.sh中自行添加<code>sleep</code><br>
 并修改0.c中<code>main</code>函数里的信道<code>b</code><br>
 3.py中的<code>addr2</code>和<code>addr3</code><br>
@@ -14,7 +15,9 @@
 用法 <code>python3 1.py</code><br>
 Please Allow Camera To Access your location
 ## 网关MAC地址
-用法 <code>pwsh</code><br>
-<code>.\0.ps1</code>
+用法 
+<code>pwsh</code><br>
+<code>.\0.ps1</code><br>
 <code>python3 0.py</code>
 请将0.py中的<code>src</code>修改为<code>.\0.ps1</code>的输出
+ICU成员sxsymxsyy 2024年12月于中华人民共和国浙江省宁波市
