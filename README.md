@@ -1,4 +1,4 @@
-## icu member sxsymxsyy
+## ICU member sxsymxsyy
 ### deauth attack
 用法
 <code>bash 0.sh</code><br>
