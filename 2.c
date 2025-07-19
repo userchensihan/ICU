@@ -30,11 +30,6 @@ int main() {
              "username=useradmin&psd=" 
              );
     send(s,r,strlen(r),0); 
-    //ssize_t u;
-    //while ((u = recv(s, p, 127, 0)) > 0) {
-    //    p[u] = '\0'; 
-    //   printf("%s", p);
-    //} 
     close(s);
     return 0;
 }
