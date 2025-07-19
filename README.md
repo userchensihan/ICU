@@ -14,9 +14,9 @@
 ## metadata of movie or picture
 用法 <code>python3 1.py</code><br>
 步骤
-</code>start ms-settings:privacy-location<code><br>
-location services on-let app camera access your location <code>
-然后<code>start microsoft.windows.camera</code><br>
+<code>start ms-settings:privacy-location</code><br>
+turn on location services let app camera access your location<br>
+then <code>start microsoft.windows.camera</code><br>
 ## gateway mac address
 用法<br>
 <code>pwsh</code><br>
