@@ -7,5 +7,5 @@
 <code>aireplay-ng -0 <int类型> -a 1C:FF:59:33:7F:FF(AP) --ignore-negative-one -D wlan0</code><br>
 如果要注释 那么请<code>cat 0.txt</code><br>
 ## 2.py
-用法 <code>python3 2.py <IP Address></code><br>
+用法 <code>python3 2.py <IP></code><br>
 请到<code>maxmind</code>下载<code>GeoLite2-City.mmdb</code>后运行
