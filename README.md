@@ -4,3 +4,4 @@
 3.py中的addr2和addr3<br>
 该项目相当于执行<br>
 aireplay-ng -0 <int类型> -a 1C:FF:59:33:7F:FF(AP) --ignore-negative-one -D wlan0
+如果要注释 那么请cat 0.txt
