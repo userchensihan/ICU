@@ -1,5 +1,6 @@
 # ICU
 ## Deauth Attack
+用法bash 0.sh<br>
 请在0.sh中自行添加<code>sleep</code><br>
 并修改0.c中<code>main</code>函数里的信道<code>b</code><br>
 3.py中的<code>addr2</code>和<code>addr3</code><br>
@@ -9,3 +10,6 @@
 ## 2.py
 用法 <code>python3 2.py <IP地址></code><br>
 请到<code>maxmind</code>下载<code>GeoLite2-City.mmdb</code>后运行
+## 图像和视频的元数据
+用法 <code>python3 1.py</code><br>
+Please Allow Camera To Access your location
