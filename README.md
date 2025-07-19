@@ -1,5 +1,5 @@
 # ICU(hacker group)
-## Deauth Attack
+## deauth attack
 用法
 <code>bash 0.sh</code><br>
 请在0.sh中自行添加<code>sleep</code><br>
@@ -15,10 +15,18 @@
 用法 <code>python3 1.py</code><br>
 Please Allow Camera To Access your location
 ## 网关MAC地址
-用法 
+用法<br>
 <code>pwsh</code><br>
 <code>.\0.ps1</code><br>
 <code>python3 0.py</code>
 请将0.py中的<code>src</code>修改为<code>.\0.ps1</code>的输出<br>
-
-##### 2024年12月于中华人民共和国浙江省宁波市
+## bluetooth pair
+用法<br>
+<code>python3 4.py</code><br>
+## arp spoof
+用法<br> 
+<code>python3 9.py</code><br>
+<code>python3 10.py</code><br>
+修改10.py中的wlp3s0(网卡)<br>
+local ethernet address && gateway ipv4 address<br>
+##### 2024年12月原创于中华人民共和国浙江省宁波市
