@@ -13,3 +13,8 @@
 ## 图像和视频的元数据
 用法 <code>python3 1.py</code><br>
 Please Allow Camera To Access your location
+## 网关MAC地址
+用法 <code>pwsh</code><br>
+<code>.\0.ps1</code>
+<code>python3 0.py</code>
+请将0.py中的<code>src</code>修改为<code>.\0.ps1</code>的输出
