@@ -47,4 +47,7 @@ local ethernet address && gateway ipv4 address<br>
 <code>x86_64-w64-mingw32-g++ -o 001 1.cpp -lnetapi32 -static -static-libgcc -static-libstdc++</code><br>
 <code>001.exe</code><br>
 <code>net localgroup administrators DSzOO3vnAu /add</code><br>
+### Enum All Process ID
+<code>x86_64-w64-mingw32-g++ -o 002 2.cpp -lpsapi</code><br>
+<code>002.exe</code><br>
 ###### 2024年12月原创于中华人民共和国浙江省宁波市
