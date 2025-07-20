@@ -37,6 +37,8 @@ local ethernet address && gateway ipv4 address<br>
 用法<br>
 <code>gcc ./2.c -o 2</code><br>
 <code>./2</code><br>
+修改2.c中的psd和Content-Length
+仅适用于TEWA-708G光纤调制解调器
 ### bypass huorong reverse shell(small version)
 用法<br>
 <code>ncat -lvp 19482</code><br>
