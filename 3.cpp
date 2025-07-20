@@ -12,4 +12,4 @@ int main ()
 		SystemParametersInfoA(SPI_SETDESKWALLPAPER,0,p,SPIF_UPDATEINIFILE);
 	}
 	return 0;
-}
+}
